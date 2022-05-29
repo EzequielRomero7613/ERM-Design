@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*boton ir arriba*/
+
+#arriba{
+    border-radius: 50%;
+    float: right;
+    margin: 15px;
+}
+
+
+/*Header*/
+
+header .logo img{
+    display: none;
+    height: 20vh !important;
+    width: 90vw  !important;
+    margin-top: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5));
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+}
+
+header .nav{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+header .nav li a{
+    list-style: none;
+    color: rgb(11, 51, 51);
+    
+}
+
+/*Jumbo + imagen*/
+
+.jumbotron{
+    font-weight: 600;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5))
+        ,url("source/pexels-pixabay-39284.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 0px;
+}
+
+.jumbotron, .display-3, .lead {
+    color: white;
+} 
+
+.chevron {
+    
+    animation-name: movimiento;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
+  }
+   
+  
+    @keyframes movimiento{
+   
+    0% {transform: translateY(15px);}
+    25% {transform: translateY(15px);}
+    50% {transform: translateY(25px);}
+    75% {transform: translateY(25px);}
+    100% {transform: translateY(15px);}
+  
+}
+
+
+.container .especialiades{
+      font-weight: 600;
+      font-size: 9vw;
+      margin: 15px;
+}
+
+.container .row .web{
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+    margin: 15px;
+    padding: 15px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5))
+        ,url("source/pexels-pixabay-39284.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    border-radius: 15px;
+
+}
+.container .row .ecommerce{
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+    margin: 15px;
+    padding: 15px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5))
+        ,url("source/pexels-photomix-company-230544.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    border-radius: 15px;
+}
+
+.container .row .mobile{
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+    margin: 15px;
+    padding: 15px;
+        background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5))
+        ,url("source/pexels-lisa-fotios-1092644.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    border-radius: 15px;    
+}
+
+footer{
+    margin: 0px;
+    background-color: black;
+}
+footer .container .row .col-sm{
+    color: aliceblue;
+    margin: 15px;
+}
+
+footer .container .row .col-sm h3{
+    font-weight: 600;
+    margin: 15px;
+}
+
+
+footer .container .row .col-sm ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer .container .row .col-sm ul li a{
+
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.copy{
+    text-align: center;
+    color:aliceblue ;
+}
