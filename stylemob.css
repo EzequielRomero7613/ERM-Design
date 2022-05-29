@@ -168,6 +168,16 @@ footer .container .row .col-sm ul li a{
     
 }
 
+.nuestras-redes li i {
+    margin: 5px;
+
+}
+
+.navegacion li i {
+    margin: 5px;
+
+}
+
 .copy{
     text-align: center;
     color:aliceblue ;
