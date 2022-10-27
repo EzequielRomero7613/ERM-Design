@@ -9,10 +9,12 @@
 
 *{
     margin: 0;
+    
 }
 
 html{
     scroll-behavior: smooth;
+    
 }
 
 /*boton ir arriba*/
@@ -69,8 +71,8 @@ header .nav li a{
     text-align: center;
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5))
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7))
         ,url("source/pexels-pixabay-39284.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -131,8 +133,8 @@ header .nav li a{
     padding: 15px;
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5))
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7))
         ,url("source/pexels-pixabay-39284.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -148,8 +150,8 @@ header .nav li a{
     padding: 15px;
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5))
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7))
         ,url("source/pexels-photomix-company-230544.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -157,22 +159,7 @@ header .nav li a{
     border-radius: 15px;
 }
 
-.container .row .mobile{
-    font-weight: 600;
-    text-align: center;
-    color: aliceblue;
-    margin: 15px;
-    padding: 15px;
-        background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5))
-        ,url("source/pexels-lisa-fotios-1092644.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    border-radius: 15px;    
-}
+
 
 
 .text-desarrollo{
