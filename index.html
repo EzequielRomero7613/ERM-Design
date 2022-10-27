@@ -31,9 +31,49 @@
   </head>
   <body>
     <header class="container">
-      <a href="#" class="logo">
-        <img src="source/logo-erm.png" alt="" />
-      </a>
+      
+
+      <!--Hamburguesa-->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="hamburguesa">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> <a href="#" class="logo">
+            <img src="source/logo-erm.png" alt="" />
+          </a> </span>
+        </button>
+       
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="nuestrosservicios.html" role="button" data-toggle="dropdown" aria-expanded="false">
+                Nuestros Servicios
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="nuestrosservicios.html">Sitios Web, Catalogos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="nuestrosservicios.html">E-commerce</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+         
+        </div>
+      </nav>
+      <!--Fin hamburguesa-->
+
+
+
 
       <ul class="nav">
         <li class="nav-item">
@@ -72,7 +112,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="container-desarrollo">
       <h2 class="especialidades">Nuestras especialidades son:</h2>
       <div class="row">
         <div class="col-sm web">
@@ -83,6 +123,26 @@
             Vos nos das tu idea y nosotros la hacemos realidad.
           </p>
         </div>
+        
+        <div class="col-sm text-desarrollo">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum eius explicabo ullam, eveniet ex quas aperiam totam quia corporis illum sapiente labore nesciunt quo quasi quis a facere neque voluptates?
+          </p>
+        </div>
+
+      </div>
+    </div>  
+
+    <div class="container" id="container-ecommerce">
+      
+      <div class="row">
+        <div class="col-sm text-ecommerce">
+          
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium molestias incidunt praesentium quo, eveniet ad velit molestiae illo, accusamus esse nesciunt beatae cupiditate fugiat rem sit sint repudiandae animi!
+          </p>
+        </div>
+        
         <div class="col-sm ecommerce">
           <h3>E-commerce:</h3>
           <br />
@@ -93,6 +153,10 @@
         </div>
       </div>
     </div>
+
+
+    
+
 
     <hr />
 

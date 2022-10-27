@@ -31,26 +31,46 @@
   </head>
   <body>
     <header class="container">
-      <a href="#" class="logo">
-        <img src="source/logo-erm.png" alt="" />
-      </a>
+      
 
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="nuestrosservicios.html"
-            >Nuestros Servicios</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contactenos</a>
-        </li>
-      </ul>
+      <!--Hamburguesa-->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="hamburguesa">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> <a href="#" class="logo">
+            <img src="source/logo-erm.png" alt="" />
+          </a> </span>
+        </button>
+       
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="nuestrosservicios.html" role="button" data-toggle="dropdown" aria-expanded="false">
+                Nuestros Servicios
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="nuestrosservicios.html">Sitios Web, Catalogos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="nuestrosservicios.html">E-commerce</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+         
+        </div>
+      </nav>
+      <!--Fin hamburguesa-->
     </header>
 
     <!--Body-->
