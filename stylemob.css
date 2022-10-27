@@ -184,6 +184,32 @@ header .nav li a{
 }
 
 
+.fa-check{
+    margin: 5px;
+    color: rgb(131, 181, 33);
+    font-size: 25px;
+}
+
+#lista-ecommerce{
+    text-align: center;
+    margin-left: -25px;
+    list-style: none;
+}
+
+#lista-ecommerce-mob{
+    display: none;
+}
+
+#lista-desarrollo{
+    text-align: center;
+    margin-left: -25px;
+    list-style: none;
+}
+#lista-desarrollo-mob{
+    display: none;
+}
+
+
 
 footer{
     height: auto;
@@ -348,7 +374,26 @@ footer .col-sm h3{
         display: block;
     }
     
+    #lista-ecommerce{
+        display: none;
+    }
 
+    #lista-ecommerce-mob{
+        display: block;
+        list-style: none;
+        padding: 15px;
+    }
+    
+    #lista-desarrollo{
+        display: none;
+    }
+
+    #lista-desarrollo-mob{
+        display: block;
+        list-style: none;
+        padding: 15px;
+    }
+    
 
 
 }

@@ -7,3 +7,8 @@ document.getElementById('arriba')
         
     })
 })
+
+
+document.getElementById('btnwpp')
+.addEventListener('click', function(){
+})
