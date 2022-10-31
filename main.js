@@ -16,4 +16,11 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
+
+
 //boton de wpp
+$(document).ready(function () {
+    $(".btnWhatsApp").click(function () {
+      $("#cajadecontactoWhatsApp").toggle("slow");
+    });
+});

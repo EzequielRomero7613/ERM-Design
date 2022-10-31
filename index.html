@@ -26,7 +26,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+     <!--JQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+   
     <title>ERM Design</title>
   </head>
   <body>
@@ -157,6 +160,48 @@
     </div>
 
 
+    <div class="btnWhatsApp">
+			<div class="btn_popup" id="botonWhatsApp" target="_blank" role="button">
+				<div class="wa__btn_popup_txt"></div>
+				<div class="wa__btn_popup_icon"></div>
+			</div>
+			<div
+				id="cajadecontactoWhatsApp"
+				class="wa__popup_chat_box wa__pending wa__active wa__lauch"
+				style="display: none"
+			>
+				<div class="wa__popup_heading">
+					<div class="wa__popup_title"></div>
+					<div class="wa__popup_intro">
+						¿Tenés una duda? Chateá con el Equipo de AP-Biotech por WhatsApp!
+					</div>
+				</div>
+				<div class="wa__popup_content">
+					<div class="wa__popup_notice">
+						Normalmente contestamos al instante. Horario de Atención: Lun-Vie de
+						08:30-17:30Hs.
+					</div>
+					<div class="wa__popup_content_list">
+						<div class="wa__popup_content_item">
+							<a
+								target="_blank"
+								href="https://api.whatsapp.com/send?phone=541139446974&amp;text=Hola! necesitaria resolver una consulta"
+								class="wa__stt wa__stt_online"
+							>
+								<div class="wa__popup_avatar">
+									<div class="wa__cs_img_wrap"></div>
+								</div>
+								<div class="wa__popup_txt">
+									<div class="wa__member_name">AP-Biotech</div>
+									<div class="wa__member_duty"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
     
 
 
@@ -234,8 +279,7 @@
 
     <script src="main.js"></script>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
