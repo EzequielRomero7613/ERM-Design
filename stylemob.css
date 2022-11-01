@@ -1267,7 +1267,7 @@ footer .col-sm h3{
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0.25);
         width: 48px;
         height: 48px;
-        background: url('source/banners/image001.jpg') center center no-repeat;
+        background: url('./logo-erm.png') center center no-repeat;
         background-size: 48px 48px;
       }
       
