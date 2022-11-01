@@ -98,8 +98,12 @@ header .nav li a{
   
   #main {
     transition: margin-left .5s;
-    padding: 16px;
+    padding: 10px; 
+    margin-left: -20px;
+    margin-top: -30px ;
+    text-align: left;  
   }
+
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
